@@ -22,4 +22,10 @@ console.log("El indice es: " + sentence.lastIndexOf("because"));
 console.log("El indice es: " + sentence.search("because"));
 
 let challenge3 = challenge2.trim();
+let concatenacion = "";
+
 console.log(challenge3);
+console.log(challenge.startsWith("30"));
+console.log(challenge.endsWith("Script"));
+console.log(concatenacion.concat("30 Days of ", "JavaScript"));
+console.log(challenge.repeat(2));
